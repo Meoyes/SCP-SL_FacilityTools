@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>FacilityTools</AssemblyName>
+    <RootNamespace>FacilityTools</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- 源码含中文广播文本，显式指定 UTF-8 避免编码误判 -->
+    <CodePage>65001</CodePage>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <!-- EXILED 8.x 在 nuget.org 的包 id 是 "EXILED"（targets net48） -->
+  <ItemGroup>
+    <PackageReference Include="EXILED" Version="8.9.11" />
+  </ItemGroup>
+
+</Project>
