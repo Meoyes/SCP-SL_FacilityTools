@@ -1,3 +1,5 @@
+[中文](./README.md) | [English](README_EN.md)
+
 # FacilityTools（探测 + 设施恢复 合并插件）
 
 元宝AI和我一起奋战三小时的成果 :)
