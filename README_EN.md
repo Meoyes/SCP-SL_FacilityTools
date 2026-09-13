@@ -7,12 +7,9 @@ The result of 3 hours of hard work with Yuanbao AI :)
 
 | Command | Description |
 |---|---|
-| `probe` | Full probe (BlastDoor / BulkheadDoor / PryableDoor / Lift / Door), writes report to a file |
-| `probe open` | Attempt to open BlastDoor (the wall at the nuke room) |
-| `probe lift` | Deep scan of elevators, find the actual unlock path |
 | `restorefacility` (alias `rf`) | Restore facility: open walls + unlock lifts + clear door locks + broadcast |
 
-Both commands are **simultaneously registered** for RemoteAdmin (in-game RA, press `~`) and GameConsole (server backend window).
+Commands are **simultaneously registered** for RemoteAdmin (in-game RA, press `~`) and GameConsole (server backend window).
 
 ## Compilation & Deployment
 
