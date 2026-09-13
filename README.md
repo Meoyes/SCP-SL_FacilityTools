@@ -8,12 +8,9 @@
 
 | 命令 | 作用 |
 |---|---|
-| `probe` | 完整探测（BlastDoor / BulkheadDoor / PryableDoor / Lift / Door），报告写文件 |
-| `probe open` | 尝试打开 BlastDoor（核爆那道墙） |
-| `probe lift` | 电梯深度扫描，找真正的解锁通道 |
 | `restorefacility`（别名 `rf`） | 恢复设施：开墙 + 解锁电梯 + 清门锁 + 广播 |
 
-两条命令**同时注册** RemoteAdmin（游戏内 RA，按 `~`）与 GameConsole（服务器后台窗口）。
+命令**同时注册** RemoteAdmin（游戏内 RA，按 `~`）与 GameConsole（服务器后台窗口）。
 
 ## 编译部署
 
